@@ -1,0 +1,29 @@
+{
+    "name": "百度网盘",
+    "tigger": [
+      "pan.baidu.com"
+    ],
+    "type": "url",
+    "check": "com.baidu.netdisk",
+    "Custom_variable": [
+      {
+        "name": "dplink",
+        "pattern": "\\/1(.*)",
+        "text": "link",
+        "index": 1
+      }
+    ],
+    "rule": [
+      {
+        "condition": [
+          {
+            "condition_type": "withcode"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "bdnetdisk://n/action.SHARE_LINK?m_n_v=8.3.0&surl=【dplink】&pwd=【code】"
+      },{
+        "rule_text": "bdnetdisk://n/action.SHARE_LINK?m_n_v=8.3.0&surl=【dplink】"
+      }
+    ]
+  }
