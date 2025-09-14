@@ -1,0 +1,14 @@
+{
+    "name": "京东",
+    "tigger": [
+      "3.cn",
+      "jd.com"
+    ],
+    "type": "url",
+    "check": "com.jingdong.app.mall",
+    "rule": [
+      {
+        "rule_text": "openapp.jdmobile://virtual?params={'category':'jump','des':'m','url':'【link】'}"
+      }
+    ]
+  }
