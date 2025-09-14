@@ -1,0 +1,14 @@
+{
+    "name": "tvbox",
+    "tigger": [
+      "cloud\\.189\\.cn",
+      "pan\\.quark\\.cn"
+    ],
+    "type": "intent",
+    "check": "com.fongmi.android.tv",
+    "rule": [
+      {
+        "rule_text": "intent:#Intent;launchFlags=0x10000000;component=com.fongmi.android.tv/.ui.activity.VideoActivity;S.id=【link】;S.key=push_agent;S.name=【link】;B.collect=false;B.download=false;end"
+      }
+    ]
+}
