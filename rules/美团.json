@@ -1,0 +1,13 @@
+{
+    "name": "美团",
+    "tigger": [
+      "dpurl\\.cn"
+    ],
+    "type": "url",
+    "check": "com.sankuai.meituan",
+    "rule": [
+      {
+        "rule_text": "imeituan://www.meituan.com/web?notitlebar=1&url=【link】"
+      }
+    ]
+}
