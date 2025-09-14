@@ -1,0 +1,9 @@
+{
+    "name": "YouTube",
+    "tigger": [
+      "youtube\\.com",
+      "youto\\.be"
+    ],
+    "type": "pkg",
+    "pkg": "com.google.android.youtube"
+}
