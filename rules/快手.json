@@ -1,0 +1,13 @@
+{
+    "name": "快手",
+    "tigger": [
+      "kuaishou\\.com"
+    ],
+    "type": "url",
+    "check": "com.smile.gifmaker",
+    "rule": [
+      {
+        "rule_text": "kwai://webview?url=【link】"
+      }
+    ]
+}
