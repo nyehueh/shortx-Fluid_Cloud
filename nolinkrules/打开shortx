@@ -1,0 +1,15 @@
+{
+    "name": "ShortX",
+    "tigger": [
+      "打开shortx"
+    ],
+    "type": "intent",
+    "check": "tornaco.apps.shortx",
+    "rule": [
+      {
+        "rule_text": "intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=tornaco.apps.shortx/.ui.main.MainActivity;sourceBounds=120%201264%20372%201516;end"
+      }
+    ],
+    "title": "ShortX",
+    "message": "打开ShortX"
+}
