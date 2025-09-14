@@ -1,0 +1,8 @@
+{
+    "name": "酷安",
+    "tigger": [
+      "coolapk\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.coolapk.market"
+}
