@@ -1,0 +1,59 @@
+{
+    "name": "115",
+    "type": "url",
+    "tigger": [
+      "115cdn\\.com",
+      "115\\.com"
+    ],
+    "check": "oof.disk://",
+    "Custom_variable": [
+      {
+        "name": "yywlink",
+        "pattern": "^(.*?)(#|$)",
+        "text": "link",
+        "index": 1
+      },
+      {
+        "name": "password",
+        "pattern": "\\?password=([^#]*)(#|$)",
+        "text": "link",
+        "index": 1
+      },
+      {
+        "name": "cleancode",
+        "pattern": "^.{4}",
+        "text": "code",
+        "index": 0
+      }
+    ],
+    "rule": [
+      {
+        "condition": [
+          {
+            "condition_type": "withcode"
+          },
+          {
+            "condition_type": "notcontains",
+            "condition_text": "link",
+            "condition_pattern": "password"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "oof.disk://openurl/【yywlink】?password=【cleancode】"
+      },
+      {
+        "condition": [
+          {
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "password"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "oof.disk://openurl/【yywlink】"
+      },
+      {
+        "rule_text": "oof.disk://openurl/【yywlink】"
+      }
+    ]
+}
