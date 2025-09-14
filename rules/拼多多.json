@@ -1,0 +1,11 @@
+{
+    "name": "拼多多",
+    "tigger": [
+      "yangkeduo\\.com",
+      "y4n\\.cn",
+      "srgnnmsrg\\.com",
+      "pinduoduo\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.xunmeng.pinduoduo"
+}
