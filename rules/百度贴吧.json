@@ -1,0 +1,21 @@
+{
+    "name": "百度贴吧",
+    "tigger": [
+      "tieba\\.baidu\\.com"
+    ],
+    "type": "url",
+    "Custom_variable": [
+      {
+        "name": "tid",
+        "pattern": "\\/p\\/(.*?)(\\?|$)",
+        "text": "link",
+        "index": 1
+      }
+    ],
+    "check": "com.baidu.tieba",
+    "rule": [
+      {
+        "rule_text": "com.baidu.tieba://unidispatch/pb?tid=【tid】"
+      }
+    ]
+}
