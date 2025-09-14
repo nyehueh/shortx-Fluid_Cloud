@@ -1,0 +1,17 @@
+{
+    "name": "PliPlus",
+    "tigger": [
+      "bilibili\\.com",
+      "b23\\.tv",
+      "bilibili\\.cn",
+      "bilibili\\.tv",
+      "bili22\\.cn",
+      "bili23\\.cn",
+      "bili33\\.cn",
+      "m\\.acg\\.tv",
+      "bili2233\\.cn",
+      "bilibili\\.smgbb\\.cn"
+    ],
+    "type": "pkg",
+    "pkg": "com.example.piliplus"
+}
