@@ -1,0 +1,13 @@
+{
+    "name": "美团外卖",
+    "tigger": [
+      "dpurl\\.cn"
+    ],
+    "type": "url",
+    "check": "com.sankuai.meituan.takeoutnew",
+    "rule": [
+      {
+        "rule_text": "meituanwaimai://waimai.meituan.com/browser?inner_url=【link】"
+      }
+    ]
+}
