@@ -1,0 +1,23 @@
+{
+    "name": "淘宝",
+    "tigger": [
+      "tb\\.cn"
+    ],
+    "type": "url",
+    "check": "com.taobao.taobao",
+    "topcondition": {
+      "condition": [
+        {
+          "condition_type": "contains",
+          "condition_text": "input",
+          "condition_pattern": "淘宝"
+        }
+      ],
+      "many_condition_tactic": "Any"
+    },
+    "rule": [
+      {
+        "rule_text": "tbopen://m.taobao.com/tbopen/index.html?h5Url=【link】"
+      }
+    ]
+}
