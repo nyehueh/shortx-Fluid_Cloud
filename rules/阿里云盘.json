@@ -1,0 +1,30 @@
+{
+    "name": "阿里云盘",
+    "type": "url",
+    "tigger": [
+      "alipan\\.com"
+    ],
+    "check": "com.alicloud.databox",
+    "Custom_variable": [
+      {
+        "name": "shareid",
+        "pattern": "\\/s\\/(.*)",
+        "text": "link",
+        "index": 1
+      }
+    ],
+    "rule": [
+      {
+        "condition": [
+          {
+            "condition_type": "withcode"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "smartdrive://share/browse?shareId=【shareid】&sharePwd=【code】"
+      },
+      {
+        "rule_text": "smartdrive://share/browse?shareId=【shareid】"
+      }
+    ]
+}
