@@ -7,5 +7,6 @@
       "pinduoduo\\.com"
     ],
     "type": "pkg",
-    "pkg": "com.xunmeng.pinduoduo"
+    "pkg": "com.xunmeng.pinduoduo",
+    "activityname": "com.xunmeng.pinduoduo.ui.activity.MainFrameActivity"
 }
