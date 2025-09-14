@@ -1,0 +1,21 @@
+{
+    "name": "点转义",
+    "tigger": [
+      "点"
+    ],
+    "Custom_variable": [
+      {
+        "name": "result",
+        "action": "replace",
+        "pattern": "点",
+        "replacement": ".",
+        "text": "input"
+      }
+    ],
+    "type": "rein",
+    "rule": [
+      {
+        "rule_text": "【result】"
+      }
+    ]
+}
