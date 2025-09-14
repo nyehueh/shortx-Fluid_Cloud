@@ -1,0 +1,23 @@
+{
+    "name": "闲鱼",
+    "tigger": [
+      "tb\\.cn"
+    ],
+    "type": "url",
+    "check": "com.taobao.idlefish",
+    "topcondition": {
+      "condition": [
+        {
+          "condition_type": "contains",
+          "condition_text": "input",
+          "condition_pattern": "闲鱼"
+        }
+      ],
+      "many_condition_tactic": "Any"
+    },
+    "rule": [
+      {
+        "rule_text": "fleamarket://2.taobao.com/onepiece?h5Url=【link】"
+      }
+    ]
+}
