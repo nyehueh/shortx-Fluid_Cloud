@@ -1,0 +1,21 @@
+{
+    "name": "库街区",
+    "tigger": [
+      "kurobbs\\.com"
+    ],
+    "type": "url",
+    "check": "com.kurogame.kjq",
+    "Custom_variable": [
+      {
+        "name": "postid",
+        "pattern": "\\?postId=(.*)",
+        "text": "link",
+        "index": 1
+      }
+    ],
+    "rule": [
+      {
+        "rule_text": "kjq://home/post/postDetail?postId=【postid】"
+      }
+    ]
+}
