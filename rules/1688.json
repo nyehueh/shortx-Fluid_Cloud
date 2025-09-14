@@ -1,0 +1,13 @@
+{
+    "name": "1688",
+    "tigger": [
+      "1688\\.com"
+    ],
+    "type": "url",
+    "check": "com.alibaba.wireless",
+    "rule": [
+      {
+        "rule_text": "wireless1688://ma.m.1688.com/plugin?url=【link】"
+      }
+    ]
+}
