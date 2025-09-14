@@ -1,0 +1,8 @@
+{
+    "name": "telegram",
+    "tigger": [
+      "t\\.me"
+    ],
+    "type": "pkg",
+    "pkg": "tg://"
+}
