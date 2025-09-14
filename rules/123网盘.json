@@ -1,0 +1,37 @@
+{
+    "name": "123网盘",
+    "type": "url",
+    "tigger": [
+      "123pan\\.com",
+      "www\\.123"
+    ],
+    "check": "com.mfcloudcalculate.networkdisk",
+    "Custom_variable": [
+      {
+        "name": "sharekey",
+        "pattern": "\\/s\\/([^#&\\?]*)(?:#|&|\\?|$)",
+        "text": "link",
+        "index": 1
+      },
+      {
+        "name": "sharepwd",
+        "pattern": "(?:\\?|&)pwd=([^#&\\?]*)(?:#|&|\\?|$)",
+        "text": "link",
+        "index": 1
+      }
+    ],
+    "rule": [
+      {
+        "condition": [
+          {
+            "condition_type": "withcode"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "pan://umeng.com/share/list?sharePwd=【code】&_sdk_=umeng&action=share_list&shareKey=【sharekey】"
+      },
+      {
+        "rule_text": "pan://umeng.com/share/list?sharePwd=【sharepwd】&_sdk_=umeng&action=share_list&shareKey=【sharekey】"
+      }
+    ]
+  }
