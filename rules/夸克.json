@@ -1,0 +1,13 @@
+{
+    "name": "夸克",
+    "tigger": [
+      "pan\\.quark\\.cn"
+    ],
+    "type": "url",
+    "check": "com.quark.browser",
+    "rule": [
+      {
+        "rule_text": "qklink://www.uc.cn/b20b84fd735a8dd3f7541129bacc4e9a?action=open_url&url=【link】"
+      }
+    ]
+}
