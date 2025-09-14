@@ -1,0 +1,13 @@
+{
+    "name": "米游社",
+    "tigger": [
+      "miyoushe\\.com"
+    ],
+    "type": "url",
+    "check": "com.mihoyo.hyperion",
+    "rule": [
+      {
+        "rule_text": "mihoyobbs://webview?link=【link】"
+      }
+    ]
+}
