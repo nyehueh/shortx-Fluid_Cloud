@@ -1,7 +1,7 @@
 {
     "name": "X",
     "tigger": [
-      "x\\.com",
+      "[/.]x\\.com",
       "twitter\\.com"
     ],
     "type": "pkg",
