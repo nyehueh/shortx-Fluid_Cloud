@@ -1,0 +1,10 @@
+{
+    "name": "小红书",
+    "tigger": [
+      "xhslink\\.com",
+      "xiaohongshu\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.xingin.xhs",
+    "activityname": "com.xingin.xhs.routers.RouterPageActivity"
+}
