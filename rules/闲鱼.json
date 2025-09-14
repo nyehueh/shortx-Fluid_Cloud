@@ -1,7 +1,7 @@
 {
     "name": "闲鱼",
     "tigger": [
-      "tb\\.cn"
+      "[/.]tb\\.cn"
     ],
     "type": "url",
     "check": "com.taobao.idlefish",
