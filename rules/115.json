@@ -2,8 +2,8 @@
     "name": "115",
     "type": "url",
     "tigger": [
-      "115cdn\\.com",
-      "115\\.com"
+      "[/.]115cdn\\.com",
+      "[/.]115\\.com"
     ],
     "check": "oof.disk://",
     "Custom_variable": [
