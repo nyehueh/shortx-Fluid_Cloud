@@ -1,0 +1,8 @@
+{
+    "name": "抖音",
+    "tigger": [
+      "douyin\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.ss.android.ugc.aweme"
+}
