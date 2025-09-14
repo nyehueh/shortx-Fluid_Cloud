@@ -1,0 +1,8 @@
+{
+    "name": "新浪微博",
+    "tigger": [
+      "weibo\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.sina.weibo"
+}
