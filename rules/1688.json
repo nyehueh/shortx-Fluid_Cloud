@@ -1,7 +1,7 @@
 {
     "name": "1688",
     "tigger": [
-      "1688\\.com"
+      "[/.]1688\\.com"
     ],
     "type": "url",
     "check": "com.alibaba.wireless",
