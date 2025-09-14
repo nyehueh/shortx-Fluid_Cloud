@@ -1,0 +1,8 @@
+{
+    "name": "知乎",
+    "tigger": [
+      "zhihu\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.zhihu.android"
+}
