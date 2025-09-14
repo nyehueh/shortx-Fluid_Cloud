@@ -1,0 +1,9 @@
+{
+    "name": "X",
+    "tigger": [
+      "x\\.com",
+      "twitter\\.com"
+    ],
+    "type": "pkg",
+    "pkg": "com.twitter.android"
+}
