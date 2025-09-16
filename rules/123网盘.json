@@ -3,13 +3,14 @@
     "type": "url",
     "tigger": [
       "123pan\\.com",
-      "www\\.123\\d{3}\\.com"
+      "www\\.123\\d{3}\\.com",
+      "123pan.cn"
     ],
     "check": "com.mfcloudcalculate.networkdisk",
     "Custom_variable": [
       {
         "name": "sharekey",
-        "pattern": "\\/s\\/([^#&\\?]*)(?:#|&|\\?|$)",
+        "pattern": "\\/s\\/([^#&?.]*)[#&?.]?",
         "text": "link",
         "index": 1
       },
@@ -31,7 +32,18 @@
         "rule_text": "pan://umeng.com/share/list?sharePwd=【code】&_sdk_=umeng&action=share_list&shareKey=【sharekey】"
       },
       {
+        "condition": [
+          {
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "pwd="
+          }
+        ],
+        "many_condition_tactic": "All",
         "rule_text": "pan://umeng.com/share/list?sharePwd=【sharepwd】&_sdk_=umeng&action=share_list&shareKey=【sharekey】"
+      },
+      {
+      "rule_text": "pan://umeng.com/share/list?sharePwd=&_sdk_=umeng&action=share_list&shareKey=【sharekey】"
       }
     ]
   }
