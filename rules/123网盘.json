@@ -3,7 +3,7 @@
     "type": "url",
     "tigger": [
       "123pan\\.com",
-      "www\\.123\\d{3}\\.com
+      "www\\.123\\d{3}\\.com"
     ],
     "check": "com.mfcloudcalculate.networkdisk",
     "Custom_variable": [
