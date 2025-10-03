@@ -18,10 +18,69 @@
         "condition": [
           {
             "condition_type": "withcode"
+          },
+            {
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "\\/s\\/"
+          },{
+            "condition_type": "notcontains",
+            "condition_text": "link",
+            "condition_pattern": "\\/t\\/"
           }
         ],
         "many_condition_tactic": "All",
         "rule_text": "smartdrive://share/browse?shareId=【shareid】&sharePwd=【code】"
+      },
+        {
+        "condition": [
+          {
+            "condition_type": "withcode"
+          },
+            {
+            "condition_type": "notcontains",
+            "condition_text": "link",
+            "condition_pattern": "\\/s\\/"
+          },{
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "\\/t\\/"
+          }
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "smartdrive://friendshare/browse?shareId=【shareid】&sharePwd=【code】"
+      },
+      {
+          "condition": [
+          {
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "\\/s\\/"
+          },
+              {
+            "condition_type": "notcontains",
+            "condition_text": "link",
+            "condition_pattern": "\\/t\\/"
+          }   
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "smartdrive://share/browse?shareId=【shareid】"
+      },
+        {
+          "condition": [
+          {
+            "condition_type": "notcontains",
+            "condition_text": "link",
+            "condition_pattern": "\\/s\\/"
+          },
+              {
+            "condition_type": "contains",
+            "condition_text": "link",
+            "condition_pattern": "\\/t\\/"
+          }   
+        ],
+        "many_condition_tactic": "All",
+        "rule_text": "smartdrive://friendshare/browse?shareId=【shareid】"
       },
       {
         "rule_text": "smartdrive://share/browse?shareId=【shareid】"
