@@ -8,7 +8,7 @@
     "Custom_variable": [
       {
         "name": "shareid",
-        "pattern": "\\/s\\/(.*)",
+        "pattern": "\\/[st]\\/(.*)",
         "text": "link",
         "index": 1
       }
